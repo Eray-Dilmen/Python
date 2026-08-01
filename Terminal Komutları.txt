@@ -25,3 +25,14 @@ Doğru kullanım: cd "Python Stuffs"
 
 
 
+clear komutu işe yaramaz.
+clear komutu sadece terminal ekranındaki yazıları temizler, arka planda Git'in hafızasına (hazırlık alanına / staging area) aldığın dosyayı silmez. git push yaptığında o dosya yine GitHub'a yüklenir.
+
+Göndermemek İçin Ne Yapmalısın?
+git restore --staged komutunu yazmak şarttır.
+Alternatif olarak, .rtf dosyasını Make Plain Text yapıp üzerine kaydettiysen ya da silip aynı isimle .txt oluşturduysan, doğrudan şunu yazman da yeterlidir:
+
+git add .
+
+git add . komutu, klasördeki son değişiklikleri (silinen, adı değişen veya yeni eklenen dosyaları) otomatik olarak günceller ve eski halinin üzerine yazar.
+
