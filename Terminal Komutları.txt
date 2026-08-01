@@ -36,3 +36,7 @@ git add .
 
 git add . komutu, klasördeki son değişiklikleri (silinen, adı değişen veya yeni eklenen dosyaları) otomatik olarak günceller ve eski halinin üzerine yazar.
 
+
+
+Şimdilik burda dursun  (ek olarak genel bir düzenleme yaparım) 
+Asıl ekleyeceğim şey cp komutu ile var olan dosyaları klon içine kopyalama komutu
