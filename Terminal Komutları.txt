@@ -1,0 +1,27 @@
+Command line 
+
+
+pwd ( shows the directory of where are you now ) 
+
+ls ( list all things on current location) (shows you all files on current location)
+
+cd ( current directory) ( you can set up directory where you want to be in) 
+
+clear ( clears the command line ) 
+
+
+/ ile subfile da gidebiliyoruz 
+
+cd Desktop/Python klasörüne erişmek gibi
+
+Geri çıkmak için; 	cd ..
+
+
+Hatanın sebebi klasör adının boşluk içermesi.
+Terminal cd Python Stuffs yazdığında bunu tek bir klasör adı olarak anlamaz; "Python" ve "Stuffs"ı iki ayrı parametre sanır.
+
+Doğru kullanım: cd "Python Stuffs"
+
+
+
+
