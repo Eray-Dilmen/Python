@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# DS_Store (Desktop Services Store), macOS işletim sisteminin klasör içine otomatik olarak koyduğu gizli bir sistem dosyasıdır. O klasörü Finder ile her açtığında Mac; simgelerin boyutu, sıralama türü, pencere pozisyonu gibi görünüm tercihlerini bu dosyanın içine kaydeder. Projenle veya kodunla hiçbir ilgisi yoktur.
+#GitHub repolarına asla yüklenmemesi gerekir. Hem gereksiz kirlilik yaratır hem de profesyonel durmaz.
+.DS_Store
