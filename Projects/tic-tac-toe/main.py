@@ -77,8 +77,11 @@ def play():
         if count == 9 and not win_condition:
             print("It's a draw!")
 
-        play_choose = input('Do you want to play again? (Y or N): ').upper()
-        if play_choose == 'Y':
+        play_choose = input('Do you want to play again? (Y or N): ').lower()
+        while play_choose not in ('y', 'n'):
+            play_choose = input('Invalid input! Please enter Y or N: ').lower()
+
+        if play_choose == 'y':
             board = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
         else:
             print("Thanks for playing!")
