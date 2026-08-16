@@ -13,6 +13,7 @@ A structured repository containing study notes, exercises, and hands-on projects
 | :--- | :--- | :--- |
 | [Tic-Tac-Toe](./Projects/tic-tac-toe/) | Easy | Command-line two-player Tic-Tac-Toe game. |
 | [War Card Game](./Projects/war-card-game/) | Easy | Automated simulation of the War card game using OOP. |
+| [Blackjack](./Projects/blackjack/) | Medium | A modular, command-line Blackjack game featuring dynamic betting and dealer logic. |
 
 ## 🛠 Tech Stack & Tools
 
